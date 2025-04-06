@@ -1,7 +1,7 @@
 import express from 'express';
 import path from 'node:path';
 import db from './config/connection.js';
-import routes from './routes/index.js';
+
 
 import {fileURLToPath} from 'url';
 import {dirname} from 'path';
@@ -23,7 +23,7 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../../client/dist')));
 }
 
-app.use(routes);
+
 
 db.once('open', () => {
   app.listen(PORT, () => console.log(`🌍 Now listening on localhost:${PORT}`));

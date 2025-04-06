@@ -11,8 +11,8 @@ const typeDefs = `
   }
 
    type Book {
-    bookId: 
-    authors: String
+    bookId: ID!
+    authors: [String]
     description: String
     title: String
     image: String
