@@ -22,13 +22,12 @@ const typeDefs = `
    
 
    type Auth {
-    token: 
-    user:
+    token: ID!
+    user:  User
   }
 
   type Query {
-    User: [User]!
-    user(userId: ID!): User
+    me: User
   }
 
   # Important for useMutation: We define our Mutation type to inform our entrypoints
