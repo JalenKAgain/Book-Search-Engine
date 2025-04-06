@@ -33,7 +33,11 @@ const typeDefs = `
   # Important for useMutation: We define our Mutation type to inform our entrypoints
 
   type Mutation {
-    
+    login(email: String!, password: String!): Auth
+    addUser(username: String, email: String, password: String!): Auth
+    saveBook(authors: [String], description: String, title: String, bookId: ID!, image: String, link: String): User input
+    removeBook(bookId: ID!): User
+
   }
 `;
 
