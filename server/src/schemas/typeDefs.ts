@@ -30,12 +30,19 @@ const typeDefs = `
     me: User
   }
 
-  # Important for useMutation: We define our Mutation type to inform our entrypoints
+  input Bookinput {
+  authors: [String]
+  description: String
+  title: String
+   bookId: ID
+   image: String
+  link: String
+    }
 
   type Mutation {
     login(email: String!, password: String!): Auth
     addUser(username: String, email: String, password: String!): Auth
-    saveBook(authors: [String], description: String, title: String, bookId: ID!, image: String, link: String): User input
+    saveBook(book: Bookinput!): User 
     removeBook(bookId: ID!): User
 
   }
