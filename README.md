@@ -16,6 +16,9 @@ BookSearch Engine is a powerful and intuitive web app that lets users search for
 
 * API: Google Books API
 
+  ## Visual
+  https://github.com/JalenKAgain/Book-Search-Engine/blob/b1342aaf8eeb8fe0d52a8d70d4d08e0d3f055ae9/Screenshot%202025-04-29%20174049.png
+
  ## Contributing
 Contributions are needed. Greatly appreciated. I'm always open to suggestions on how to make creations better.
 
