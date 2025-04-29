@@ -16,3 +16,12 @@ BookSearch Engine is a powerful and intuitive web app that lets users search for
 
 * API: Google Books API
 
+ ## Contributing
+Contributions are needed. Greatly appreciated. I'm always open to suggestions on how to make creations better.
+
+## Questions
+
+If you have any questions feel free to reach me at the following:
+- Email: jacjalen16@gmail.com
+
+---
